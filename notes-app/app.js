@@ -1,8 +1,8 @@
-const validator = require('validator')
-const notes = require('./notes.js')
+const chalk = require('chalk')
+const getNotes = require('./notes.js')
 
+const msg = getNotes()
+console.log(msg)
 
-
-console.log(validator.isEmail('bosh@.com'))
-
-console.log(validator.isURL('https://chat.openai.com/c/70ffe8a6-7173-40ef-9a7e-e0b70cc851d2'))
+const greenMsg = chalk.green.inverse.bold('Success!')
+console.log(greenMsg)
