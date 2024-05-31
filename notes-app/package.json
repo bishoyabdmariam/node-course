@@ -10,6 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",
-    "validator": "^10.8.0"
+    "validator": "^10.8.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.13"
   }
 }
